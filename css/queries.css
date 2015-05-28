@@ -1,0 +1,16 @@
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media screen and (min-width: 400px) {}
+
+/* Larger than phablet */
+@media screen and (min-width: 550px) {}
+
+/* Larger than tablet */
+@media screen and (min-width: 750px) {}
+
+/* Larger than desktop */
+@media screen and (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media screen and (min-width: 1200px) {}
