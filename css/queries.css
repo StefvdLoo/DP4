@@ -157,8 +157,8 @@ li {
   width: 20vw;
   height: 20vw;  
 }
-.grid-item--width2 { width: 50vh; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 50vh; height:50vh; background-color: red;}
+.grid-item--width2 { width: 40vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 40vw; height:40vw; background-color: red;}
 
 }
 
