@@ -35,6 +35,7 @@ li {
 
   display: inline-block;
   padding: 0px;
+  margin: 0px;
 /*  background-color: red;*/
  
 }
@@ -92,8 +93,8 @@ li {
   margin-top: 30vw;
 }
   .grid {
-    width: 93vw;
-    height: 93vh;
+    width: 90vw;
+    height: 90vh;
   }
 
   header {
@@ -115,6 +116,7 @@ li {
     -moz-border-radius-topright: 20vw;
     border-top-left-radius: 20vw;
     border-top-right-radius: 20vw;
+    margin: 0.5vw;
   }
   .menu3, .menu2{
     display: inline-block;
@@ -126,6 +128,7 @@ li {
     border-style: solid;
     border-width: 0 0 30vw 30vw;
     border-color: transparent transparent #007bff transparent;
+    margin: 0.5vw;
   }
 
   .grid-item {
@@ -172,6 +175,7 @@ li {
     -moz-border-radius-topright: 10vw;
     border-top-left-radius: 10vw;
     border-top-right-radius: 10vw;
+    margin: 0.5vw;
   }
   .menu1, .menu2, .menu3{
     width: 19vw;
@@ -181,6 +185,7 @@ li {
     border-style: solid;
     border-width: 0 0 19vw 19vw;
     border-color: transparent transparent #007bff transparent;
+    margin: 0.5vw;
   }
 
   .grid-item {
