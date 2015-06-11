@@ -92,8 +92,8 @@ li {
   margin-top: 30vw;
 }
   .grid {
-    width: 90vw;
-    height: 90vh;
+    width: 93vw;
+    height: 93vh;
   }
 
   header {
@@ -105,8 +105,8 @@ li {
   }
 
   .menu4{
-    width: 30vw;
-    height: 30vw;
+    width: 29vw;
+    height: 29vw;
     display: inline-block;
     background-color: red;
         -webkit-border-top-left-radius: 20vw;
@@ -119,8 +119,8 @@ li {
   .menu3, .menu2{
     display: inline-block;
 
-    width: 30vw;
-    height: 30vw;
+    width: 29vw;
+    height: 29vw;
     width: 0;
     height: 0;
     border-style: solid;
@@ -129,14 +129,12 @@ li {
   }
 
   .grid-item {
-  width: 30vw;
-  height: 30vw;  
-  margin-left: 1px; 
-  margin-right: 4px;
-  margin-top:  4px;
+  width: 29vw;
+  height: 29vw; 
+  margin: 0.5vw;
 }
-.grid-item--width2 { width: 60vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 60vw; height:60vw; background-color: red;}
+.grid-item--width2 { width: 59vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 59vw; height: 59vw; background-color: red;}
 
 .grid-item--height2 { }
 .grid-item--height3 { }
@@ -164,8 +162,8 @@ li {
   display: inline-block;
 }
   .menu4{
-    width: 20vw;
-    height: 20vw;
+    width: 19vw;
+    height: 19vw;
     display: inline-block;
     background-color: red;
     -webkit-border-top-left-radius: 10vw;
@@ -176,24 +174,22 @@ li {
     border-top-right-radius: 10vw;
   }
   .menu1, .menu2, .menu3{
-    width: 20vw;
-    height: 20vw;
+    width: 19vw;
+    height: 19vw;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 20vw 20vw;
+    border-width: 0 0 19vw 19vw;
     border-color: transparent transparent #007bff transparent;
   }
 
   .grid-item {
-  width: 20vw;
-  height: 20vw;  
-  margin-left: 1px; 
-  margin-right: 4px;
-  margin-top:  4px;
+  width: 19vw;
+  height: 19vw;  
+  margin: 0.5vw;
 }
-.grid-item--width2 { width: 40.2vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 40.2vw; height:40.2vw; background-color: red;}
+.grid-item--width2 { width: 39vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 39vw; height:39vw; background-color: red;}
 
 }
 
