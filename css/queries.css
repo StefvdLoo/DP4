@@ -12,26 +12,19 @@ a {
     font-weight: bold;
  
 }
- 
-img {
- 
-    width: 100%;
- 
-}
- 
+
 header {
- 
     background: #fff;
-    width: 100%;
-    height: 74px;
     position: fixed;
     top: 0;
     left: 0;
-    border-bottom: 4px solid #000000;
     z-index: 100;
- 
 }
  
+img {
+    width: 100%;
+}
+  
 nav {
  
 }
@@ -57,7 +50,6 @@ li {
   width: 100%;
   height: 100%;
   background: #EEE;
-  margin-top: 74px;
 }
 
 .grid {
@@ -102,24 +94,33 @@ li {
 /*
 /* Larger than mobile */
 @media screen and (min-width: 319px) { 
+  .container{
+  margin-top: 30vw;
+}
   .grid {
-    width: 100vh;
-    height: 100vh;
-
+    width: 90vw;
+    height: 90vh;
   }
- 
+
+  header {
+    width: 100vw;
+    height: 30vw;
+}
+.menu4{
+  display: none;
+}
 
   li{
-    width: 3vh;
-    height: 3vh;
+    width: 30vw;
+    height: 30vw;
   }
 
   .grid-item {
-  width: 33.33vw;
-  height: 33.33vw;  
+  width: 30vw;
+  height: 30vw;  
 }
-.grid-item--width2 { width: 66.66vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 66.66vw; height:66.66vw; background-color: red;}
+.grid-item--width2 { width: 60vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 60vw; height:60vw; background-color: red;}
 
 .grid-item--height2 { }
 .grid-item--height3 { }
@@ -129,14 +130,32 @@ li {
 
 /* Larger than Desktop HD */
 @media screen and (min-width: 780px) {
-li{
-    width: 25vh;
-    height: 25vh;
+  .container{
+  margin-top: 20vw;
+}
+
+  .grid {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  header {
+    width: 100vw;
+    height: 20vw;
+}
+.menu4{
+  width: 20vw;
+  height: 20vw;
+  display: inline-block;
+}
+  li{
+    width: 20vw;
+    height: 20vw;
   }
 
   .grid-item {
-  width: 25vh;
-  height: 25vh;  
+  width: 20vw;
+  height: 20vw;  
 }
 .grid-item--width2 { width: 50vh; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
 .grid-item--width3 { width: 50vh; height:50vh; background-color: red;}
