@@ -25,11 +25,7 @@ nav {
  
 }
   
-ul {
-  text-align: center;
-  padding: 0;
- 
-}
+
  
 li {
 
@@ -89,6 +85,11 @@ li {
 /*
 /* Larger than mobile */
 @media screen and (min-width: 319px) { 
+  ul {
+  text-align: center;
+  padding: 0;
+  margin-left: -1.5vw;
+}
   .container{
   margin-top: 30vw;
 }
@@ -116,7 +117,7 @@ li {
     -moz-border-radius-topright: 20vw;
     border-top-left-radius: 20vw;
     border-top-right-radius: 20vw;
-    margin: 0.5vw;
+    margin: 0.5vw 0.5vw 0.5vw 0vw;
   }
   .menu3, .menu2{
     display: inline-block;
@@ -126,9 +127,9 @@ li {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 30vw 30vw;
+    border-width: 0 0 29vw 29vw;
     border-color: transparent transparent #007bff transparent;
-    margin: 0.5vw;
+    margin: 0.5vw 0.5vw 0.5vw 0vw;
   }
 
   .grid-item {
@@ -147,6 +148,11 @@ li {
 
 /* Larger than Desktop HD */
 @media screen and (min-width: 780px) {
+  ul {
+  text-align: center;
+  padding: 0;
+  margin-left: -2vw;
+}
   .container{
   margin-top: 20vw;
 }
@@ -175,7 +181,7 @@ li {
     -moz-border-radius-topright: 10vw;
     border-top-left-radius: 10vw;
     border-top-right-radius: 10vw;
-    margin: 0.5vw;
+    margin: 0.5vw 0.5vw 0.5vw 0vw;
   }
   .menu1, .menu2, .menu3{
     width: 19vw;
@@ -185,13 +191,14 @@ li {
     border-style: solid;
     border-width: 0 0 19vw 19vw;
     border-color: transparent transparent #007bff transparent;
-    margin: 0.5vw;
+    margin: 0.5vw 0.5vw 0.5vw 0vw;
   }
 
   .grid-item {
   width: 19vw;
   height: 19vw;  
-  margin: 0.5vw;
+   margin: 0.5vw 0.5vw 0.5vw 0vw;
+
 }
 .grid-item--width2 { width: 39vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
 .grid-item--width3 { width: 39vw; height:39vw; background-color: red;}
