@@ -46,8 +46,6 @@ li {
 
   display: inline-block;
   padding: 0px;
-  height: 70px;
-  width: 70px;
   background-color: red;
  
 }
@@ -57,15 +55,13 @@ li {
 /* ---- grid ---- */
 .container{
   width: 100%;
-  height: auto;
+  height: 100%;
   background: #EEE;
   margin-top: 74px;
 }
 
 .grid {
-  width: 100%;
-  max-width: 80%;
-  height: auto;
+
   counter-reset: grid-item;
   margin-left: auto;
   margin-right: auto;
@@ -81,19 +77,17 @@ li {
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 160px;
-  height: 160px;
   float: left;
   background: green;
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
 }
 
-.grid-item--width2 { width: 320px; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 320px; background-color: red;}
+.grid-item--width2 { background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 {  background-color: red;}
 
-.grid-item--height2 { height: 160px; }
-.grid-item--height3 { height: 320px; }
+.grid-item--height2 { ; }
+.grid-item--height3 { }
 
 .grid-item:before {
   counter-increment: grid-item;
@@ -105,74 +99,47 @@ li {
   font-size: 20px;
 }
 
-
+/*
 /* Larger than mobile */
-@media screen and (max-width: 400px) { }
-.grid-item {
-  width: 80px;
-  height: 80px;
-}
-.grid-item--width2 { width: 160px; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 160px; background-color: red;}
+@media screen and (min-width: 319px) { 
+  .grid {
+    width: 100vh;
+    height: 100vh;
 
-.grid-item--height2 { height: 80px; }
-.grid-item--height3 { height: 160px; }
+  }
+ 
 
-/* Larger than phablet */
-@media screen and (max-width: 550px) {
+  li{
+    width: 3vh;
+    height: 3vh;
+  }
+
   .grid-item {
-  width: 90px;
-  height: 90px;
+  width: 33.33vw;
+  height: 33.33vw;  
 }
-.grid-item--width2 { width: 180px; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 180px; background-color: red;}
+.grid-item--width2 { width: 66.66vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 66.66vw; height:66.66vw; background-color: red;}
 
-.grid-item--height2 { height: 90px; }
-.grid-item--height3 { height: 180px; }
+.grid-item--height2 { }
+.grid-item--height3 { }
 }
-
-/* Larger than tablet */
-@media screen and (min-width: 750px) {
-.grid-item {
-  width: 100px;
-  height: 100px;
-}
-.grid-item--width2 { width: 200px; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 200px; background-color: red;}
-
-.grid-item--height2 { height: 100px; }
-.grid-item--height3 { height: 200px; }
-
-}
-
-/* Larger than desktop */
-@media screen and (min-width: 1000px) {
-.grid-item {
-  width: 320px;
-  height: 320px;
-}
-
-.grid-item--width2 { width: 640px; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 640px; background-color: red;}
-
-.grid-item--height2 { height: 320px; }
-.grid-item--height3 { height: 640px; }
-
-}
+ 
 
 
 /* Larger than Desktop HD */
-@media screen and (min-width: 1000px) {
-.grid-item {
-  width: 350px;
-  height: 350px;
+@media screen and (min-width: 780px) {
+li{
+    width: 25vh;
+    height: 25vh;
+  }
+
+  .grid-item {
+  width: 25vh;
+  height: 25vh;  
 }
-
-.grid-item--width2 { width: 700px; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 700px; background-color: red;}
-
-.grid-item--height2 { height: 350px; }
-.grid-item--height3 { height: 700px; }
+.grid-item--width2 { width: 50vh; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 50vh; height:50vh; background-color: red;}
 
 }
 

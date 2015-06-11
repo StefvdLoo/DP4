@@ -6,16 +6,28 @@ $(document).ready( function() {
 
 $(window).resize(function(){
 
-       if ($(window).width() <= 400) {  
+	var pixels = 100;
+	var screenWidth = window.screen.width;
+	var percentage = ( screenWidth - pixels ) / screenWidth ; // 0.92%
+
+       if ($(window).width() >= 319 && <= 780 ) {  
 	       $('.grid').masonry({
 			    itemSelector: '.grid-item',
-			    columnWidth: 80,
+			    columnWidth: 33.33%,
 			    isOriginTop: false
 			});
               // is mobile device
        }
 
-       if ($(window).width() <= 550) {  
+       else{
+       	  $('.grid').masonry({
+			    itemSelector: '.grid-item',
+			    columnWidth: 25%,
+			    isOriginTop: false
+			});
+       }
+
+  /*     if ($(window).width() <= 550) {  
 	       $('.grid').masonry({
 			    itemSelector: '.grid-item',
 			    columnWidth: 90,
@@ -50,5 +62,5 @@ $(window).resize(function(){
 			});
               // is mobile device
        }         
-
+	*/
 	});
