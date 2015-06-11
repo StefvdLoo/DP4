@@ -100,10 +100,11 @@ li {
     width: 100vw;
     height: 30vw;
 }
-  .menu4{
+  .menu1{
     display: none;
   }
-  .menu3{
+
+  .menu4{
     width: 30vw;
     height: 30vw;
     display: inline-block;
@@ -115,7 +116,9 @@ li {
     border-top-left-radius: 20vw;
     border-top-right-radius: 20vw;
   }
-  .menu1, .menu2{
+  .menu3, .menu2{
+    display: inline-block;
+
     width: 30vw;
     height: 30vw;
     width: 0;
@@ -128,6 +131,9 @@ li {
   .grid-item {
   width: 30vw;
   height: 30vw;  
+  margin-left: 1px; 
+  margin-right: 4px;
+  margin-top:  4px;
 }
 .grid-item--width2 { width: 60vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
 .grid-item--width3 { width: 60vw; height:60vw; background-color: red;}
@@ -152,6 +158,10 @@ li {
   header {
     width: 100vw;
     height: 20vw;
+}
+
+.menu1{
+  display: inline-block;
 }
   .menu4{
     width: 20vw;
@@ -178,9 +188,12 @@ li {
   .grid-item {
   width: 20vw;
   height: 20vw;  
+  margin-left: 1px; 
+  margin-right: 4px;
+  margin-top:  4px;
 }
-.grid-item--width2 { width: 40vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 40vw; height:40vw; background-color: red;}
+.grid-item--width2 { width: 40.2vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 { width: 40.2vw; height:40.2vw; background-color: red;}
 
 }
 
