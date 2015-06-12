@@ -22,7 +22,7 @@ a {
 }
 
 header {
-    background: #fff;
+    background: rgba(0,0,0,0.4) ;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,8 +47,7 @@ li {
 /* ---- grid ---- */
 .container{
   width: 100%;
-  height: 100%;
-  background: #EEE;
+
 }
 
 .grid {
@@ -69,13 +68,13 @@ li {
 
 .grid-item {
   float: left;
-  background: green;
-  border: 2px solid #333;
+  background: #85d5fc;
+  border: 2px solid #85d5fc;
   border-color: hsla(0, 0%, 0%, 0.5);
 }
 
-.grid-item--width2 { background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 {  background-color: red;}
+.grid-item--width2 { background-color: #41697c; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
+.grid-item--width3 {  background-color: #a6bdc8;}
 
 .grid-item--height2 { ; }
 .grid-item--height3 { }
@@ -118,7 +117,7 @@ li {
     width: 29vw;
     height: 29vw;
     display: inline-block;
-    background-color: red;
+    background-color: #85d5fc;
         -webkit-border-top-left-radius: 20vw;
     -webkit-border-top-right-radius: 20vw;
     -moz-border-radius-topleft: 20vw;
@@ -136,7 +135,7 @@ li {
     height: 0;
     border-style: solid;
     border-width: 0 0 29vw 29vw;
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent #85d5fc transparent;
     margin: 0.5vw 0.5vw 0.5vw 0vw;
   }
 
@@ -144,9 +143,11 @@ li {
   width: 29vw;
   height: 29vw; 
   margin: 0.5vw;
+  background-image: url("../img/raam-1.png"); background-size: 100% auto; background-repeat: no-repeat;
+
 }
-.grid-item--width2 { width: 59vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 59vw; height: 59vw; background-color: red;}
+.grid-item--width2 { width: 59vw; background-color: #41697c; background-image: url("../img/raam-2.png"); background-size: 100% auto; background-repeat: no-repeat;}
+.grid-item--width3 { width: 59vw; height: 59vw; background-color: #a6bdc8; background-image: url("../img/raam-3.png"); background-size: 100% auto; background-repeat: no-repeat;}
 
 .grid-item--height2 { }
 .grid-item--height3 { }
@@ -182,7 +183,7 @@ li {
     width: 19vw;
     height: 19vw;
     display: inline-block;
-    background-color: red;
+    background-color: #85d5fc;
     -webkit-border-top-left-radius: 10vw;
     -webkit-border-top-right-radius: 10vw;
     -moz-border-radius-topleft: 10vw;
@@ -198,7 +199,7 @@ li {
     height: 0;
     border-style: solid;
     border-width: 0 0 19vw 19vw;
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent #85d5fc transparent;
     margin: 0.5vw 0.5vw 0.5vw 0vw;
   }
 
@@ -206,10 +207,13 @@ li {
   width: 19vw;
   height: 19vw;  
    margin: 0.5vw 0.5vw 0.5vw 0vw;
+   background-image: url("../img/raam-1.png"); background-size: 100% auto; background-repeat: no-repeat;
 
 }
-.grid-item--width2 { width: 39vw; background-color: blue; /*background-image: url("../img/profiel1.jpg"); background-size: 100% auto; background-repeat: no-repeat;*/}
-.grid-item--width3 { width: 39vw; height:39vw; background-color: red;}
+.grid-item--width2 { width: 39vw; background-color: #41697c; background-image: url("../img/raam-2.png"); background-size: 100% auto; background-repeat: no-repeat;}
+.grid-item--width3 { width: 39vw; height:39vw; background-color: #a6bdc8;background-image: url("../img/raam-3.png"); background-size: 100% auto; background-repeat: no-repeat;}
 
 }
+
+
 
