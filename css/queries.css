@@ -538,7 +538,7 @@ input{
         margin-left: auto;
     margin-right: auto;
   background: #85d5fc;
-  width: 90%;
+  width: 100%;
   padding: 20px;
 
 }
@@ -547,7 +547,7 @@ input{
         margin-left: auto;
     margin-right: auto;
   background: #85d5fc;
-  width: 90%;
+  width: 100%;
   padding: 20px;
   display:none;
 }
@@ -556,7 +556,7 @@ input{
         margin-left: auto;
     margin-right: auto;
   background: #85d5fc;
-  width: 90%;
+  width: 100%;
   padding: 20px;
   display:none;
 }
