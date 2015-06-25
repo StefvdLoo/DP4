@@ -870,7 +870,7 @@ input{
         margin-left: auto;
     margin-right: auto;
   background: #85d5fc;
-  width: 25%;
+  width: 30%;
   padding: 20px;
 
 }
@@ -879,7 +879,7 @@ input{
         margin-left: auto;
     margin-right: auto;
   background: #85d5fc;
-  width: 25%;
+  width: 30%;
   padding: 20px;
   display:none;
 }
@@ -888,7 +888,7 @@ input{
         margin-left: auto;
     margin-right: auto;
   background: #85d5fc;
-  width: 25%;
+  width: 30%;
   padding: 20px;
   display:none;
 }
@@ -896,7 +896,7 @@ input{
 
 input{
     float: left;
-    width: 200px;
+    width: 100%;
     height: 20px;
     margin: 0px 0px 5px 0px;
     border: 1px solid #41697c;
