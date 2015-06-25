@@ -92,7 +92,10 @@ p{
   font-size: 20px;
 }
 
-
+.draai{
+  background-color: red;
+  background-image: none;
+}
 
 
 /*
@@ -436,10 +439,7 @@ input{
 
 }
 
-.draai{
-  background-color: red;
-  background-image: none;
-}
+
 
 .card__front,
 .card__back {
