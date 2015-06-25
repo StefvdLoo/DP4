@@ -421,13 +421,18 @@ input{
   font-size: 2.5vw;
   line-height: 3vw;
   font-weight: 300;
-  margin-top: -5%;
+  margin-top: 5%;
 }
 
 .readMore{
   font-size: 2.5vw;
-  color:white;
+  color:#85d5fc;
   font-weight: 600;
+   position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
 
 }
@@ -778,8 +783,13 @@ input{
 
 .readMore{
   font-size: 1.1vw;
-  color:white;
+  color:#85d5fc;
   font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
 
 }
