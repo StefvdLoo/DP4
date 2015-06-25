@@ -3,6 +3,7 @@
           box-sizing: border-box;
 }
 
+
 html{
   background: url("eindhoven.png")no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -54,8 +55,13 @@ p{
   margin-left: auto;
   margin-right: auto;
     overflow: scroll;
+  }
 
-}
+
+.grid::-webkit-scrollbar { width: 0 !important }
+.grid { -ms-overflow-style: none; }
+.grid { overflow: -moz-scrollbars-none; }
+
 
 .profiel{
   background: #85d5fc;
@@ -90,6 +96,8 @@ p{
   text-align: center;
   font-size: 20px;
 }
+
+
 
 
 /*
@@ -595,6 +603,9 @@ input{
 .content{
   overflow: scroll;
 }
+.content::-webkit-scrollbar { width: 0 !important }
+.content { -ms-overflow-style: none; }
+.content { overflow: -moz-scrollbars-none; }
 
 .message{
   width: 100%;
