@@ -28,7 +28,7 @@ header {
     left: 0;
     z-index: 100;
 }
-  
+
 nav {
  
 }
@@ -51,17 +51,14 @@ p{
 }
 
 .grid {
-  counter-reset: grid-item;
+/*  counter-reset: grid-item;*/
   margin-left: auto;
   margin-right: auto;
     overflow: scroll;
-  }
-
+}
 
 .grid::-webkit-scrollbar { width: 0 !important }
 .grid { -ms-overflow-style: none; }
-.grid { overflow: -moz-scrollbars-none; }
-
 
 .profiel{
   background: #85d5fc;
@@ -69,8 +66,6 @@ p{
   width: 98%;
   height: 500px;
 }
-
-
 
 /* ---- grid-item ---- */
 
@@ -88,8 +83,8 @@ p{
 .grid-item--height3 { }
 
 .grid-item:before {
-  counter-increment: grid-item;
-  content: counter(grid-item);
+/*  counter-increment: grid-item;*/
+/*  content: counter(grid-item);*/
   display: block;
   color: white;
   padding-top: 0.2em;
@@ -108,16 +103,16 @@ p{
   padding: 0;
 }
   .container{
-  margin-top: 30vw;
+  margin-top: 20vw;
 }
   .grid {
     width: 90vw;
-    height: 80vh;
+    height: 85vh;
   }
 
   header {
     width: 100vw;
-    height: 30vw;
+    height: 20vw;
 }
   .menu1{
     display: none;
@@ -125,7 +120,7 @@ p{
 
   .menu4{
     width: 28vw;
-    height: 28vw;
+    height: 18vw;
     display: inline-block;
     background-color: #85d5fc;
     -webkit-border-top-left-radius: 20vw;
@@ -138,13 +133,12 @@ p{
   }
   .menu3, .menu2{
     display: inline-block;
-
     width: 28vw;
-    height: 28vw;
+    height: 18vw;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 28vw 28vw;
+    border-width: 0 0 18vw 28vw;
     border-color: transparent transparent #85d5fc transparent;
     margin: 0.5vw 1.0vw 0.5vw 1.0vw;
   }
@@ -365,17 +359,17 @@ input{
   margin-right: auto;
 }
   .container{
-  margin-top: 20vw;
+  margin-top: 15vw;
 }
 
   .grid {
     width: 80vw;
-    height: 60vh;
+    height: 72vh;
   }
 
   header {
     width: 100vw;
-    height: 20vw;
+    height: 15vw;
   }
 
   .menu1{
@@ -388,7 +382,7 @@ input{
 
   .menu4{
     width: 19vw;
-    height: 19vw;
+    height: 14vw;
     display: inline-block;
     background-color: #85d5fc;
     -webkit-border-top-left-radius: 10vw;
@@ -403,11 +397,11 @@ input{
   }
   .menu1, .menu2, .menu3{
     width: 19vw;
-    height: 19vw;
+    height: 14vw;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 19vw 19vw;
+    border-width: 0 0 14vw 19vw;
     border-color: transparent transparent #85d5fc transparent;
     margin: 0.5vw 0.25vw 0.5vw 0.25vw;
 
@@ -422,7 +416,6 @@ input{
 }
 .grid-item--width2 { width: 39vw; background-color: #41697c; background-image: url("../img/raam-2.png"); background-size: 100% auto; background-repeat: no-repeat;}
 .grid-item--width3 { width: 39vw; height:39vw; background-color: #a6bdc8;background-image: url("../img/raam-3.png"); background-size: 100% auto; background-repeat: no-repeat; float: right;}
-
 
 /* --- CARDS --- */
 
@@ -441,6 +434,11 @@ input{
 .card__back {
   position: absolute;
 
+}
+
+.draai{
+  background-color: red;
+  background-image: none;
 }
 
 .card__front,
@@ -603,9 +601,6 @@ input{
 .content{
   overflow: scroll;
 }
-.content::-webkit-scrollbar { width: 0 !important }
-.content { -ms-overflow-style: none; }
-.content { overflow: -moz-scrollbars-none; }
 
 .message{
   width: 100%;
