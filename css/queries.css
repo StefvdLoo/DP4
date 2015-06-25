@@ -15,10 +15,7 @@ html{
 body { font-family: sans-serif; }
 
 a {
-    color: #4C9CF1;
-    text-decoration: none;
-    font-weight: bold;
- 
+    text-decoration: none;  
 }
 
 header {
@@ -117,7 +114,7 @@ p{
     width: 100vw;
     height: 20vw;
 }
-  .menu1{
+  .menu3{
     display: none;
   }
 
@@ -133,8 +130,9 @@ p{
     border-top-left-radius: 20vw;
     border-top-right-radius: 20vw;
     margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+
   }
-  .menu3, .menu2{
+  .menu1, .menu2{
     display: inline-block;
     width: 28vw;
     height: 18vw;
@@ -145,6 +143,26 @@ p{
     border-color: transparent transparent #85d5fc transparent;
     margin: 0.5vw 1.0vw 0.5vw 1.0vw;
   }
+
+    .tekstHeader{
+  color: white;
+  position: absolute;
+  font-size: 4vw;
+  }
+
+  .tekstHeader1{
+  color: white;
+  font-size: 4vw;
+  margin-left: 20.5vw;
+  padding-top: 35%;
+  }
+
+
+
+  .knop{
+  position: absolute;
+  margin-left: -27vw;
+}
 
   .grid-item {
   width: 29vw;
@@ -375,7 +393,7 @@ input{
     height: 15vw;
   }
 
-  .menu1{
+  .menu3{
     display: inline-block;
   }
 
@@ -395,8 +413,7 @@ input{
     border-top-left-radius: 10vw;
     border-top-right-radius: 10vw;
     margin: 0.5vw 0.25vw 0.5vw 0.25vw;
-
-
+    position: relative;
   }
   .menu1, .menu2, .menu3{
     width: 19vw;
@@ -407,9 +424,25 @@ input{
     border-width: 0 0 14vw 19vw;
     border-color: transparent transparent #85d5fc transparent;
     margin: 0.5vw 0.25vw 0.5vw 0.25vw;
-
-   
+    position: relative;
   }
+
+  .tekstHeader{
+  color: white;
+  font-size:2.5vw;
+  }
+
+  .tekstHeader1{
+  color: white;
+  font-size:2.5vw;
+  margin-left: 14.5vw;
+  padding-top: 45%;
+  }
+
+  .knop{
+  position: absolute;
+  margin-left: -18.5vw;
+}
 
   .grid-item {
   width: 19vw;
@@ -598,7 +631,7 @@ input{
   height: 150px;
 }
 
-.content{
+.content{ 
   overflow: scroll;
 }
 
