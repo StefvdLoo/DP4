@@ -621,7 +621,28 @@ input{
 }
 
 input{
-  width: 100%;
+    float: left;
+    width: 200px;
+    height: 20px;
+    margin: 0px 0px 5px 0px;
+    border: 1px solid #41697c;
+    background: #41697c;
+    font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial;
+    color: white;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 2px;
+    /* geen selectie */
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.submit{
+  background: #a6bdc8;
+  border: 1px solid #a6bdc8;
+
 }
 
 }
