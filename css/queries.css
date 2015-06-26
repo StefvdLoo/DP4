@@ -167,9 +167,9 @@ h4{
 
   .tekstHeader1{
   color: white;
-  font-size: 4vw;
-  margin-left: 20.5vw;
-  padding-top: 35%;
+font-size: 4vw;
+margin-left: 18.5vw;
+padding-top: 33%;
   }
 
    .tekstHeader2{
@@ -182,8 +182,18 @@ h4{
   .tekstHeader3{
   color: white;
   font-size:4vw;
-  margin-left: 14.2vw;
+  margin-left: 16.2vw;
   padding-top: 45%;
+  }
+
+  .profielfoto{
+    width: 10vw;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 9.5%;
   }
 
   .knop{
@@ -544,10 +554,10 @@ input{
 
   .tekstHeader1{
   color: white;
-  font-size:2.5vw;
-  margin-left: 14.5vw;
-  padding-top: 45%;
-  }
+font-size: 2.5vw;
+margin-left: 13.4vw;
+padding-top: 42%;
+}
 
   .tekstHeader2{
   color: white;
@@ -559,9 +569,28 @@ input{
   .tekstHeader3{
   color: white;
   font-size:2.5vw;
-  margin-left: 10.4vw;
+  margin-left: 11.8vw;
   padding-top: 56%;
   }
+
+  .tekstHeader4{
+    color: white;
+  font-size:2.5vw;
+  margin-left: 14.5vw;
+  padding-top: 45%;
+
+
+  }
+
+  .profielfoto {
+width: 7.5vw;
+-webkit-border-radius: 60px;
+-moz-border-radius: 60px;
+border-radius: 60px;
+position: absolute;
+margin-top: -37%;
+margin-left: 6.5%;
+}
 
   .knop{
   position: absolute;
