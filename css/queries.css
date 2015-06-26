@@ -79,6 +79,7 @@ h4{
   margin: 1%;
   width: 98%;
   height: auto;
+  height: 100vh;
 }
 
 /* ---- grid-item ---- */
@@ -380,7 +381,7 @@ padding-top: 33%;
   background: #85d5fc;
   margin: 1%;
   width: 98%;
-  height: 500px;
+  height: 100vh;  
 }
 
 .een{
@@ -601,13 +602,13 @@ margin-left: 6.5%;
 }
 
 .profielOmschrijving{
-  text-align: left;
+   text-align: left;
   width: 17.5vw;
   padding: 0.5vw;
   background-color: #41697c;
-  margin-top: 1vw;
-    height: 24vw;
-} 
+  margin-top: 2.5vh;
+  height: 53vh;
+}
 
 input{
    width: 33vw;
@@ -781,7 +782,7 @@ input{
   background: rgba(112, 112, 112, 0.97);
   margin: 1%;
   width: 98%;
-  
+  height: 100vh;
 }
 
 .een{
@@ -789,12 +790,12 @@ input{
   /* background: #85d5fc; */
   width: 18.5vw;
   padding: 0.5vw;
-  margin-top: 0.5vw;
+  margin-top: 1.5vh;
 }
 .drie{
-width: 42vw;
+ width: 42vw;
   padding-left: 0.5vw;
-  margin-top: 0.7vw
+  margin-top: 0.7vh;
 }
 
 .content{ 
@@ -891,9 +892,9 @@ width: 42vw;
 
 .tabs {
      position: relative;
-     min-height: 11.1vw;
+     min-height: 24vh;
   /* clear: both; */
-  margin-top: 1vw;
+  margin-top: 3vh;
     }
     .tab {
       float: left;
@@ -901,7 +902,7 @@ width: 42vw;
     .tab label {
       background: #41697c; 
       padding: 10px; 
-
+      max-width: 30%;
       border-radius: 5px 5px 0px 0px; 
         margin-right: 0.2vw;
       position: relative;
