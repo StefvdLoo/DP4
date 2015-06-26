@@ -189,6 +189,15 @@ padding-top: 33%;
   padding-top: 45%;
   }
 
+  .tekstHeader4{
+  color: white;
+  font-size: 4vw;
+  margin-left: 20.5vw;
+  padding-top: 35%;
+}
+
+
+
   .profielfoto{
     width: 10vw;
     -webkit-border-radius: 60px;
