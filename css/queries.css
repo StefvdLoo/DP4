@@ -195,6 +195,11 @@ h4{
   width: 23vw;
 }
 
+.maps {
+  width: 40vw;
+  margin-top: 5%;
+}
+
 
 
   .grid-item {
@@ -864,9 +869,11 @@ input{
   padding-right: 10%;
 }
 
+.maps {
+  width: 20vw;
 }
 
-
+}
 
 .tabs {
       position: relative;   
